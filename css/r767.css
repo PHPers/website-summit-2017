@@ -1,0 +1,81 @@
+@media all and (max-width: 767px) {
+  .phpers-summit-section h2 {
+    font-size: 2.6rem; }
+
+  .references-slider-box {
+    padding: 0; }
+    .references-slider-box:before, .references-slider-box:after {
+      content: none; }
+
+  .stay-prelegent {
+    padding: 60px 0; }
+
+  .about-maps {
+    display: block; }
+    .about-maps .about-section {
+      width: 100%;
+      display: block; }
+    .about-maps .about-content {
+      max-width: 100%;
+      float: none;
+      padding-top: 25px;
+      text-align: center; }
+    .about-maps h3 {
+      margin-top: 35px; }
+    .about-maps #maps {
+      width: 100%;
+      height: 450px;
+      display: block; }
+
+  footer .contact-fot {
+    text-align: center; }
+    footer .contact-fot a {
+      margin: 5px 20px; }
+
+  .popup-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center; }
+    .popup-content .pic-popup {
+      position: relative;
+      top: auto;
+      left: auto;
+      margin: 0 auto 15px auto; }
+
+  .event-popup .popup-content {
+    padding-left: 15px; } }
+@media all and (max-width: 650px) {
+  #prelegenci-slider {
+    margin-top: 40px; }
+    #prelegenci-slider .owl-nav {
+      top: 50%; }
+
+  .prelegenci-slider-box {
+    display: block; }
+    .prelegenci-slider-box .picture {
+      display: block;
+      margin: 0 auto; }
+    .prelegenci-slider-box .descryption {
+      display: block;
+      text-align: center;
+      margin-top: 15px; } }
+@media all and (max-width: 580px) {
+  .agent-tabs ul li {
+    font-size: 1.4rem; }
+  .agent-tabs .room-agenda div p {
+    font-size: 1.4rem; } }
+@media all and (max-width: 550px) {
+  .sponsorzy-wrapper {
+    display: block; }
+    .sponsorzy-wrapper .left-sponsor {
+      width: 150px;
+      display: block;
+      margin: 0 auto 25px auto;
+      left: auto; }
+    .sponsorzy-wrapper .right-sponsor {
+      width: 220px;
+      display: block;
+      margin: 0 auto;
+      right: auto; } }
+
+/*# sourceMappingURL=r767.css.map */

@@ -1,0 +1,52 @@
+footer {
+  background: #111617;
+  padding: 25px 0; }
+  footer .logo-fot {
+    max-width: 238px; }
+  footer .contact-fot {
+    margin-top: 22px;
+    text-align: center; }
+    footer .contact-fot a {
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: #ffffff;
+      display: inline-block;
+      position: relative;
+      margin-right: 45px; }
+      footer .contact-fot a:last-child {
+        margin-right: 0; }
+  footer .mail {
+    padding-left: 35px; }
+    footer .mail:before {
+      background: url(../images/mail.png) center center no-repeat;
+      width: 23px;
+      height: 17px;
+      display: block;
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: 0; }
+  footer .fb {
+    padding-left: 28px; }
+    footer .fb:before {
+      background: url(../images/fb.png) center center no-repeat;
+      width: 10px;
+      height: 19px;
+      display: block;
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0; }
+  footer .copy {
+    font-size: 1.5rem;
+    color: #454545;
+    margin-top: 22px;
+    text-align: right; }
+  footer .realization {
+    font-size: 1.5rem;
+    color: #454545;
+    text-align: right; }
+    footer .realization a:hover {
+      color: #ffffff; }
+
+/*# sourceMappingURL=footer.css.map */

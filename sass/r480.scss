@@ -1,0 +1,131 @@
+@media all and (max-width: 480px) {
+    .home-section-content {
+        .place {
+            font-size: 3rem;
+        }
+        .date {
+            font-size: 3rem;
+        }
+    }
+    .last-edytion-head {
+        h2 {
+            font-size: 2.8rem;
+            padding: 0 15px;
+        }
+    }
+    .references-slider-box {
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    .stay-prelegent {
+        h2 {
+            font-size: 2.8rem;
+        }
+        p {
+            font-size: 1.8rem;
+            margin-top: 15px;
+        }
+    }
+    .agenda-section {
+        background: none;
+        h2 {
+            margin-top: 60px;
+        }
+    }
+    .agent-tabs {
+        .timetable-row {
+            .timetable-hours {
+                width: 90px;
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+            .timetable-event {
+                h3 {
+                    font-size: 1.1rem;
+                }
+                &.left {
+                    padding-left: 62px;
+                }
+                &.right {
+                    padding-right: 62px;
+                }
+                .author {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    #prelegenci-slider {
+        padding: 0;
+        .owl-nav {
+            display: none;
+        }
+    }
+    .prelegenci-slider-box {
+        .picture {
+            min-width: 160px;
+            width: 160px;
+        }
+        .author {
+            font-size: 2.2rem;
+        }
+        .company {
+            margin-top: 0;
+        }
+        .short-desc {
+            font-size: 1.4rem;
+        }
+    }
+    .about-maps {
+        #maps {
+            height: 350px;
+        }
+    }
+    .organizator-box {
+        display: block;
+        text-align: center;
+        .avatar {
+            margin: 0 auto;
+        }
+        .descryption {
+            display: block;
+            margin: 15px auto 0 auto;
+        }
+    }
+    .close-popup { 
+        top: 33px;
+        right: 15px;
+        .text {
+            display: none;
+        }
+    }
+    .header-popup {
+        padding-right: 50px;
+        .logo-popup {
+            max-width: 190px;
+        }
+    }
+    .popup-content {
+        padding-top: 15px;
+    }
+    .popup-content {
+        padding-bottom: 50px;
+        .pic-popup {
+            max-width: 140px;
+        }
+        .author {
+            font-size: 2rem;
+        }
+        .company {
+            font-size: 1.3rem;
+        }
+        .desc-popup {
+            p {
+                font-size: 1.3rem;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
