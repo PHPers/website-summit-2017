@@ -32,7 +32,7 @@ $(document).ready(function() {
         }, 300);
         return false;
     });
-    
+
     $('.know-more a').click(function() {
         var hash = $(this).attr('href');
         $('html, body').stop().animate({
@@ -40,7 +40,7 @@ $(document).ready(function() {
         }, 300);
         return false;
     });
-    
+
     $("#poprzednia-edycja-slider").owlCarousel({
         items: 4,
         loop: true,
@@ -62,14 +62,14 @@ $(document).ready(function() {
             }
         }
     });
-    
+
     $("#references-slider").owlCarousel({
         items: 1,
         loop: true,
         nav: false,
         navText: ["",""]
     });
-        
+
     $("#prelegenci-slider").owlCarousel({
         items: 2,
         loop: true,
@@ -89,13 +89,13 @@ $(document).ready(function() {
             }
         }
     });
-    
+
     $('.timetable-row .timetable-event').hover(function(){
         $(this).siblings('.timetable-hours').addClass('active');
     }, function(){
         $(this).siblings('.timetable-hours').removeClass('active');
     });
-    
+
     $('.agenda-section').on('mousemove', function(e) {
         var divisor = 16;
 	    var bgWidth = $(window).width();
@@ -106,7 +106,7 @@ $(document).ready(function() {
 		var mouseMoveY = (mousePosY - $(this).height()/2)/divisor;
 		$(this).css('background-position', (-(bgWidth-$(this).width())/4+mouseMoveX)+'px '+(-(bgHeight-$(this).height())/4+mouseMoveY)+'px');
 	});
-    
+
     $('.agent-tabs ul li').click(function(){
         var numtab = $(this).index();
         $('.agent-tabs ul li').removeClass('active');
@@ -131,7 +131,7 @@ var lastId,
 menuItems.click(function(e){
   var href = $(this).attr("href"),
       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-  $('html, body').stop().animate({ 
+  $('html, body').stop().animate({
       scrollTop: offsetTop
   }, 300);
   e.preventDefault();
@@ -177,7 +177,7 @@ let countDown = new Date('Sep 2, 2017 00:00:00').getTime(),
         if (seconds < 10) {
             seconds = "0" + seconds;
         }
-        document.querySelector('.counter').innerHTML = `<span class="cent">${days} <span class="small_cent">Dni</span></span> : <span class="cent">${hours} <span class="small_cent">Godzin</span></span> : <span class="cent">${minutes} <span class="small_cent">Minut</span></span> : <span class="cent">${seconds} <span class="small_cent">Sekund</span></span>`;
+        //document.querySelector('.counter').innerHTML = `<span class="cent">${days} <span class="small_cent">Dni</span></span> : <span class="cent">${hours} <span class="small_cent">Godzin</span></span> : <span class="cent">${minutes} <span class="small_cent">Minut</span></span> : <span class="cent">${seconds} <span class="small_cent">Sekund</span></span>`;
 
         if (distance < 0) {
             clearInterval(x);
